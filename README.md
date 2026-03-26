@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NeuroDerm.AI - AI-Powered Skin Health Analysis Platform
 
 An intelligent skin analysis platform using fine-tuned DINOv2 vision transformer for detecting skin conditions and providing personalized skincare recommendations.
@@ -54,3 +55,7 @@ An intelligent skin analysis platform using fine-tuned DINOv2 vision transformer
 ```bash
 git clone https://github.com/yourusername/neuroderm-ai.git
 cd neuroderm-ai
+=======
+# Neuroderma.ai
+AI-powered skin analysis, prediction &amp; digital twin simulation system (FastAPI + React + ML)
+>>>>>>> 4d7f53ff773e68d63aa3c58ef993e49f3e93d172
