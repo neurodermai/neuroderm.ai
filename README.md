@@ -92,7 +92,6 @@ Results + Recommendations
 
 ## 📸 Demo
 
-> *(Add screenshots in `/assets` folder)*
 
 ```
 assets/
