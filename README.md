@@ -200,6 +200,6 @@ If you like this project:
 
 ## 📜 License
 
-MIT License
+Apache 2.0 
 
 ---
