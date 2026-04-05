@@ -52,7 +52,7 @@ An intelligent skin analysis platform using fine-tuned DINOv2 vision transformer
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/neurodermai.git
-cd neurodermai
+git clone https://github.com/neurodermai.git
+cd neuroderm.ai
 # Neuroderm.ai
 AI-powered skin analysis, prediction &amp; digital twin simulation system (FastAPI + React + ML)
