@@ -1,58 +1,206 @@
-# NeuroDerm.AI - AI-Powered Skin Health Analysis Platform
+# 🧬 NeuroDerm AI
 
-An intelligent skin analysis platform using fine-tuned DINOv2 vision transformer for detecting skin conditions and providing personalized skincare recommendations.
+> **Not just what your skin is — but what it's becoming.**
 
-## 🌟 Features
+🚀 AI-Powered Skin Analysis • 🧠 DINOv2 Vision AI • 📊 Risk Forecasting • 🧬 Digital Twin System
 
-- **AI-Powered Analysis**: Multi-label classification for 8+ skin conditions
-- **Real-time Processing**: Instant analysis with <3s response time
-- **Personalized Recommendations**: Customized skincare routines and product suggestions
-- **Progress Tracking**: Monitor skin health improvements over time
-- **Comparison Mode**: Before/after visualization
-- **Professional UI**: Modern, responsive interface built with Next.js and Tailwind CSS
+---
+
+## 🌍 Problem
+
+* Skin diseases are often **detected too late**
+* Limited access to **dermatologists**, especially in rural areas
+* No system for **continuous skin health monitoring**
+* Current solutions are **reactive, not predictive**
+
+---
+
+## 💡 Solution
+
+**NeuroDerm AI** is an intelligent, AI-powered platform that combines:
+
+* 📸 Facial image analysis
+* 🧠 Deep learning (DINOv2 Vision Transformer)
+* 📊 Lifestyle & behavioral signals
+
+To provide:
+
+* ✅ Instant skin condition detection
+* 📈 Future risk prediction
+* 🧬 Personalized skincare plans
+* 🔁 Continuous monitoring via digital twin
+
+---
+
+## ✨ Key Features
+
+* 🔍 **AI Skin Analysis** — Multi-label detection of 8+ skin conditions
+* ⚡ **Real-time Processing** — <3 seconds response time
+* 📊 **Risk Forecasting** — Predict future skin issues
+* 🧬 **Digital Skin Twin** — Track changes over time
+* 🧠 **Lifestyle Insights** — Sleep, stress, diet-based recommendations
+* 📱 **Modern Dashboard** — Clean, responsive UI
+
+---
 
 ## 🏗️ Architecture
 
-### ML Model
-- **Base**: 
-- **Task**: Multi-label skin condition classification
-- **Conditions Detected**:
-  - Acne (with severity grading)
-  - Redness/Inflammation
-  - Dryness
-  - Oiliness
-  - Aging signs
-  - Dark spots/Hyperpigmentation
-  - Texture issues
-  - Healthy skin baseline
+```
+User (Image + Lifestyle Input)
+        ↓
+Frontend (Next.js + Tailwind)
+        ↓
+Backend (FastAPI)
+        ↓
+ML Model (DINOv2 Vision Transformer)
+        ↓
+Database (PostgreSQL + Redis)
+        ↓
+Results + Recommendations
+```
 
-### Backend (FastAPI)
-- Python 3.11+
-- PostgreSQL database
-- Redis caching
-- S3/Cloudinary image storage
-- JWT authentication
-- 
-### Frontend (Next.js 14)
-- React 18
-- TypeScript
-- Tailwind CSS + shadcn/ui
-- Real-time updates
-- 
+---
+
+## 🧪 Tech Stack
+
+**Frontend**
+
+* Next.js 14
+* React 18
+* TypeScript
+* Tailwind CSS + shadcn/ui
+
+**Backend**
+
+* FastAPI (Python 3.11+)
+* JWT Authentication
+* REST APIs
+
+**AI / ML**
+
+* DINOv2 (Vision Transformer)
+* Multi-label classification
+
+**Database & Infra**
+
+* PostgreSQL
+* Redis (Caching)
+* Cloudinary / S3 (Image storage)
+* Docker & Docker Compose
+
+---
+
+## 📸 Demo
+
+> *(Add screenshots in `/assets` folder)*
+
+```
+assets/
+├── landing.png
+├── analysis.png
+├── dashboard.png
+```
+
+```md
+![Landing](./assets/landing.png)
+![Analysis](./assets/analysis.png)
+![Dashboard](./assets/dashboard.png)
+```
+
+---
+
 ## 🚀 Quick Start
 
-### Prerequisites
-- Docker & Docker Compose
-- Python 3.11+
-- Node.js 20+
-- PostgreSQL 15+
-- Redis 7+
-- 
-### Installation
+### 1. Clone the repository
 
-1. **Clone the repository**
 ```bash
 git clone https://github.com/neurodermai/neuroderm.ai.git
 cd neuroderm.ai
-# Neuroderm.ai
-AI-powered skin analysis, prediction &amp; digital twin simulation system (FastAPI + React + ML)
+```
+
+---
+
+### 2. Backend Setup (FastAPI)
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+---
+
+### 3. Frontend Setup (Next.js)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+### 4. Open in Browser
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in backend:
+
+```
+DATABASE_URL=
+SECRET_KEY=
+MODEL_NAME=
+CLOUDINARY_URL=
+```
+
+---
+
+## 🏆 Built for Hackathon
+
+**Team CodeMinds**
+
+* 👨‍💻 Suryamani
+* 👨‍💻 Harsh
+* 👨‍💻 Piyush
+* 👨‍💻 Aryan
+
+---
+
+## 🔮 Future Scope
+
+* 📱 Mobile app (React Native)
+* 🧑‍⚕️ Dermatologist integration
+* ⌚ Wearable device sync
+* 🌍 Rural healthcare deployment
+* 🧪 Clinical validation & trials
+
+---
+
+## 📌 Why This Matters
+
+> Early detection saves lives.
+> NeuroDerm AI makes advanced skin analysis **accessible, predictive, and scalable**.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 🍴 Fork it
+* 🚀 Share it
+
+---
+
+## 📜 License
+
+MIT License
+
+---
