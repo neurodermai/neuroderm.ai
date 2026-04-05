@@ -14,7 +14,7 @@ An intelligent skin analysis platform using fine-tuned DINOv2 vision transformer
 ## 🏗️ Architecture
 
 ### ML Model
-- **Base**: facebook/dinov2-base (Vision Transformer)
+- **Base**: 
 - **Task**: Multi-label skin condition classification
 - **Conditions Detected**:
   - Acne (with severity grading)
